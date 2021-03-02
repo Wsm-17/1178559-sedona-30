@@ -1,0 +1,246 @@
+/*Fonts*/
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../font/PTSans.woff2") format("woff2"),
+    url("../font/PTSans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../font/PTSans-Bold.woff2") format("woff2"),
+    url("../font/PTSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*Variables*/
+
+:root {
+  --basic-black: #000000;
+  --basic-white: #ffffff;
+  --basic-light-black: #231F20;
+  --basic-dark-gray: #333333;
+  --basic-gray-88: #888888;
+  --basic-gray-6A: #6A6A6A;
+  --basic-gray-AB: #ABABAB;
+  --basic-gray-EE: #EEEEEE;
+  --basic-gray-CA: #CACACA;
+  --basic-gray-F2: #F2F2F2;
+  --basic-gray-66: #666666;
+  --basic-gray-A9: #A9A9A9;
+  --basic-gray-EB: #EBEBEB;
+  --basic-gray-E5: #E5E5E5;
+  --basic-gray-BDB: #BDBBBC;
+  --basic-light-cyan: #81B3D2;
+  --basic-cyan: #669EC0;
+  --basic-dark-cyan: #5496BD;
+  --bacic-light-brown: #766357;
+  --bacic-brown: #604E43;
+  --basic-dark-brown: #503E33;
+  --basic-darck-231: #231F20;
+}
+
+/*Global*/
+
+.page-body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--basic-dark-gray);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  background-image: url("../img/bg_mountains.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+/*Main-navigation*/
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basick-black);
+  background-color: var(--basic-white);
+}
+
+.site-navigation-list {
+  list-style: none;
+}
+
+.site-navigation {
+  text-decoration: none;
+}
+
+.site-navigation:link {
+  color: var(--basick-black);
+}
+
+.site-navigation:visited {
+  color: var(--bacic-light-brown);
+}
+
+.site-navigation:hover {
+  color: var(--basic-light-cyan);
+}
+
+.site-navigation:active {
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+/*Main*/
+
+/*Картинка с текстом*/
+
+.desc {
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--basic-dark-gray);
+}
+
+.desc-caption {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--basick-black);
+}
+
+/*Features */
+
+.features-list {
+  list-style: none;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item-content {
+  width: 400px;
+  height: 256px;
+  background-color: var(--basic-light-cyan);
+  color: var(--basic-white);
+}
+
+/*Features Caption*/
+
+.feature-item-caption {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+  color: var(--basic-black);
+}
+
+.feature-item-fon {
+  background-color: var(--basic-gray-EE);
+}
+
+ /*Interested?*/
+
+ .desc-interested {
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+  background-color: var(--basic-white);
+}
+
+.desc-interested-caption {
+  color: var(--basic-black);
+}
+
+.desc-interested-text {
+  color: var(--basic-dark-gray);
+}
+
+/*Footer*/
+
+.main-footer {
+  background-color: var(--basic-white);
+}
+
+.footer-contacts {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--basic-black);
+}
+
+.footer-contacts-phone {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*Social*/
+
+.footer-social-list {
+  list-style: none;
+}
+
+.social-button {
+  width: 46px;
+  height: 48px;
+  background-color: var(--basic-light-cyan);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-button:hover {
+  background-color: var(--basic-cyan);
+}
+
+.social-button:active {
+  background-color: var(--basic-dark-cyan);
+}
+
+.social-button-tw {
+  width: 17px;
+  height: 17px;
+  background-image: url("../img/twitter.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+}
+
+.social-button-tw:hover,
+.social-button-fb:hover,
+.social-button-yt:hover {
+  background-color: var(--basic-white);
+}
+
+.social-button-tw:active,
+.social-button-fb:active,
+.social-button-yt:active {
+  background-color: var(--basic-white);
+  opacity: 0.3;
+}
+
+.social-button-fb {
+  width: 12px;
+  height: 22px;
+  background-image: url("../img/fb-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+}
+
+.social-button-yt {
+  width: 20px;
+  height: 16px;
+  background-image: url("../img/youtube.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+}
+
+/*Copyright*/
+
+.footer-copyright {
+  color: var(--basic-black);
+}
+
