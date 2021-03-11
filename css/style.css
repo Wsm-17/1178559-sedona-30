@@ -20,7 +20,7 @@
 
 :root {
   --basic-black: #000000;
-  --basic-white: #ffffff;
+  --basic-white: #FFFFFF;
   --basic-light-black: #231F20;
   --basic-dark-gray: #333333;
   --basic-gray-88: #888888;
@@ -53,10 +53,14 @@
   font-style: normal;
   color: var(--basic-dark-gray);
   text-transform: uppercase;
-  background-color: var(--basic-white);
+  background-color: var(--basic-gray-88);
   background-image: url("../img/bg_mountains.jpg");
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*Main-navigation*/
@@ -70,10 +74,6 @@
 
 .site-navigation-list {
   list-style: none;
-}
-
-.site-navigation {
-  text-decoration: none;
 }
 
 .site-navigation:link {
@@ -137,6 +137,10 @@
   color: var(--basic-black);
 }
 
+.feature-item-place {
+  color: var(--basic-white);
+}
+
 .feature-item-fon {
   background-color: var(--basic-gray-EE);
 }
@@ -144,17 +148,20 @@
  /*Interested?*/
 
  .desc-interested {
-  font-size: 30px;
-  line-height: 24px;
-  text-align: center;
   background-color: var(--basic-white);
 }
 
 .desc-interested-caption {
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
   color: var(--basic-black);
 }
 
 .desc-interested-text {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
   color: var(--basic-dark-gray);
 }
 
@@ -196,46 +203,6 @@
 
 .social-button:active {
   background-color: var(--basic-dark-cyan);
-}
-
-.social-button-tw {
-  width: 17px;
-  height: 17px;
-  background-image: url("../img/twitter.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  text-decoration: none;
-}
-
-.social-button-tw:hover,
-.social-button-fb:hover,
-.social-button-yt:hover {
-  background-color: var(--basic-white);
-}
-
-.social-button-tw:active,
-.social-button-fb:active,
-.social-button-yt:active {
-  background-color: var(--basic-white);
-  opacity: 0.3;
-}
-
-.social-button-fb {
-  width: 12px;
-  height: 22px;
-  background-image: url("../img/fb-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  text-decoration: none;
-}
-
-.social-button-yt {
-  width: 20px;
-  height: 16px;
-  background-image: url("../img/youtube.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  text-decoration: none;
 }
 
 /*Copyright*/
