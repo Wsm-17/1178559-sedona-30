@@ -54,9 +54,6 @@
   color: var(--basic-dark-gray);
   text-transform: uppercase;
   background-color: var(--basic-gray-88);
-  background-image: url("../img/bg_mountains.jpg");
-  background-repeat: no-repeat;
-  background-position: top center;
 }
 
 a {
@@ -96,6 +93,14 @@ a {
 /*Main*/
 
 /*Картинка с текстом*/
+
+.heading-image {
+  background-image: url("../img/bg_mountains.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+/*Text description*/
 
 .desc {
   font-size: 14px;
