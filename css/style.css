@@ -170,6 +170,144 @@ a {
   color: var(--basic-dark-gray);
 }
 
+/*Catalog*/
+
+.form-container {
+  color: var(--basic-white);
+  background-image: url("../img/bg-catalog.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.form-list {
+  list-style: none;
+}
+
+.form-container-caption {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+/*Buttons*/
+
+.form-button {
+  font: inherit;
+  text-align: center;
+  glyph-orientation-vertical: middle;
+  color: var(--basic-white);
+  text-transform: uppercase;
+  border: 2px solid var(--basic-white);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.form-button:hover {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.control-select {
+  font-size: 12px;
+  line-height: 18px;
+  background-color: var(--basic-white);
+}
+
+.control-select-caption {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.control-select-list {
+  list-style: none;
+}
+
+.button-control-select {
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid var(--basic-light-cyan);
+  border-bottom: dashed;
+}
+
+.button-control-select:visited {
+  color: var(--basic-light-cyan);
+  border-bottom: none;
+}
+
+.button-control-select:hover {
+  color: var(--basic-light-cyan);
+}
+
+.button-control-select:active {
+  color: var(--basic-black);
+  border-bottom: none;
+}
+
+.button-control-select-price {
+  color: var(--basic-light-cyan);
+}
+
+/*Select plase*/
+
+.select-place {
+  background-color: var(--basic-white);
+}
+
+.select-place-list {
+  list-style: none;
+}
+
+.select-place-relax {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--basic-black);
+}
+
+.select-place-relax:hover {
+  color: var(--basic-light-cyan);
+}
+
+.select-place-relax:active {
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+.button {
+  font-weight: 700;
+  color: var(--basic-white);
+}
+
+.button-detailed {
+  background-color: var(--basic-light-cyan);
+}
+
+.button-detailed:hover {
+  background-color: var(--basic-cyan);
+}
+
+.button-detailed:active {
+  background-color: var(--basic-dark-cyan);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-reserve {
+  background-color: var(--bacic-light-brown);
+}
+
+.button-reserve:hover {
+  background-color: var(--bacic-brown);
+}
+
+.button-reserve:active {
+  background-color: var(--basic-dark-brown);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.select-place-rating {
+  color: var(--basic-gray-66);
+  background-color: var(--basic-gray-F2);
+}
+
 /*Footer*/
 
 .main-footer {
