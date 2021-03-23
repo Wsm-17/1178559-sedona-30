@@ -264,6 +264,19 @@ a {
 
 /*Catalog*/
 
+/*Grid for page-catalog*/
+
+.page-catalog {
+  display: grid;
+  grid-template-rows: 217px 1fr;
+}
+
+.select-block {
+  display: grid;
+  grid-template-rows: 86px 1fr 150px 150px;
+}
+
+
 .form-container {
   color: var(--basic-white);
   background-image: url("../img/bg-catalog.jpg");
@@ -302,6 +315,8 @@ a {
   font-size: 12px;
   line-height: 18px;
   background-color: var(--basic-white);
+  border-bottom: 1px solid var(--basic-gray-E5);
+  padding-left: 73px;
 }
 
 .control-select-caption {
@@ -345,7 +360,18 @@ a {
 }
 
 .select-place-list {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+.border {
+  border-bottom: 1px solid var(--basic-gray-E5);
+  padding: 0;
+}
+
+.select-place-items {
+  padding-left: 73px;
 }
 
 .select-place-relax {
